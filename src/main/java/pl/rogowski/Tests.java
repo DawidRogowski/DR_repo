@@ -12,4 +12,17 @@ public class Tests {
         assertEquals(120, result);
        System.out.println(result);
     }
+
+    @Test
+    public void methods (){
+    " ".charAt(0);
+    }
+    @Test
+     public void checkCharAt() {
+        String name = "I'm trying as best as I can";
+        char firstLetter = name.charAt(0);
+        assertEquals(name.charAt(0), firstLetter);
+        System.out.println(name);
+        System.out.println("Our first letter in this String is  " +firstLetter );
+    }
 }
